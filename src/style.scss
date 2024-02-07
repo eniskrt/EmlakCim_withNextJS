@@ -1,0 +1,18 @@
+@import "bootstrap/scss/bootstrap";
+
+.inputs{
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: flex-start;
+    justify-content: center!important;
+
+    label{
+        margin-bottom: 0.5rem;   
+    }
+
+    input,
+    select{
+        width: 70vw!important;
+    }
+
+}
